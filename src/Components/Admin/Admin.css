@@ -1,0 +1,249 @@
+/* Admin */
+.Admin {
+  background-color: rgb(255, 81, 110);
+}
+
+.Admin ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: rgb(255, 81, 110);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Admin li {
+  margin: 10px;
+  color: white;
+
+}
+
+.Admin .nav {
+  text-decoration: none;
+}
+
+.Admin li:hover {
+  color: black;
+}
+
+.Admin button {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 20px;
+  cursor: pointer;
+  color: rgb(255, 81, 110);
+
+}
+
+.Admin button:hover {
+  box-shadow: 0 0 10px black;
+}
+
+
+/* Addbook */
+.Addbook {
+  background-color: rgb(255, 81, 110);
+}
+
+.Addbook .cont {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 650px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -5px 5px 10px gray;
+  margin: auto;
+  background-color: white;
+}
+
+
+.Addbook input {
+  height: 20px;
+  margin: 20px;
+  width: 400px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(238, 234, 234);
+
+
+}
+
+.Addbook input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgb(255, 81, 110);
+}
+
+.Addbook .cont button {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(255, 81, 110);
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.Addbook button:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.Addbook h1 {
+  color: rgb(255, 81, 110);
+}
+
+.Bookreport {
+  background-color: rgb(255, 81, 110);
+
+}
+
+.Bookreport .cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80vw;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -5px 5px 10px gray;
+  margin: auto;
+  background-color: white;
+}
+
+.Bookreport h1 {
+  color: black;
+  text-align: center;
+
+}
+
+.Bookreport .main {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 2px gray;
+}
+
+/* Issuebook */
+.Issuebook {
+  background-color: rgb(255, 81, 110);
+  height: 100vh;
+
+}
+
+.Issuebook .cont {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px gray;
+  margin: auto;
+  background-color: white;
+}
+
+.Issuebook h1 {
+  color: rgb(255, 81, 110);
+}
+
+.Issuebook select {
+  height: 45px;
+  margin: 20px;
+  width: 415px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(238, 234, 234);
+
+
+}
+
+.Issuebook select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgb(255, 81, 110);
+}
+
+.Issuebook input {
+  height: 20px;
+  margin: 20px;
+  width: 400px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(238, 234, 234);
+
+
+}
+
+.Issuebook input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgb(255, 81, 110);
+}
+
+.Issuebook button {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(255, 81, 110);
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.Issuebook button:hover {
+  box-shadow: 0 0 10px black;
+}
+
+/* Issuebookrecord */
+.Issuebookrecord {
+  background-color: rgb(255, 81, 110);
+
+}
+
+.Issuebookrecord .cont {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: 400px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -5px 5px 10px gray;
+  margin: auto;
+  background-color: white;
+}
+
+.Issuebookrecord h1 {
+  color: rgb(255, 81, 110);
+}
+
+.Issuebookrecord th {
+  background-color: rgb(238, 234, 234);
+  width: 150px;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Issuebookrecord .head th {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+
+@media (max-width:620px) {
+  .Addbook .cont {
+    width: 420px;
+  }
+
+  .Issuebook .cont {
+    width: 420px;
+  }
+}

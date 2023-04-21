@@ -1,0 +1,107 @@
+/* log */
+.login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 234, 234);
+}
+
+.student {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px 5px 10px gray;
+    background-color: white;
+
+}
+
+.student input {
+    height: 20px;
+    margin: 20px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(238, 234, 234);
+
+}
+
+.student input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(255, 81, 110);
+}
+
+.student button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 81, 110);
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.student button:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.student p {
+    color: rgb(255, 81, 110);
+}
+
+.admin {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 81, 110);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+.admin input {
+    height: 20px;
+    margin: 20px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(238, 234, 234);
+
+
+}
+
+.admin input:focus {
+    outline: none;
+    box-shadow: 0 0 5px white;
+}
+
+.admin button {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgb(255, 81, 110);
+}
+
+.admin button:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.admin p {
+    color: white;
+}
+
+.admin h1 {
+    color: white;
+}

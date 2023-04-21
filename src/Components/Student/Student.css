@@ -1,0 +1,165 @@
+/* Student */
+.Student {
+    background-color: rgb(255, 81, 110);
+}
+
+.Student ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Student li {
+    margin: 10px;
+    color: white;
+}
+
+.Student .nav {
+    text-decoration: none;
+}
+
+.Student li:hover {
+    color: black;
+}
+
+.Student button {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    color: rgb(255, 81, 110);
+
+}
+
+.Student button:hover {
+    box-shadow: 0 0 10px black;
+}
+
+
+/* Bookreportstudent */
+.Bookreportstudent {
+    background-color: rgb(255, 81, 110);
+}
+
+.Bookreportstudent .cont {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-width: 400px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px gray;
+    margin: auto;
+    background-color: white;
+}
+
+.Bookreportstudent h1 {
+    color: black;
+}
+
+
+.Bookreportstudent th {
+    background-color: rgb(238, 234, 234);
+    width: 150px;
+    height: 140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Bookreportstudent .head th {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.Requestbook {
+    background-color: rgb(255, 81, 110);
+    text-align: center;
+}
+
+.Requestbook .cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.Requestbook h1 {
+    color: black;
+    text-align: center;
+}
+
+.Requestbook input {
+    height: 20px;
+    margin: 20px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(238, 234, 234);
+}
+
+.Requestbook input:focus {
+    outline: none;
+    box-shadow: 0 0 5px white;
+}
+
+.Requestbook button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(158, 155, 155);
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.Requestbook button:hover {
+    box-shadow: 0 0 10px black;
+    
+}
+
+.Requestbook .main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: -5px 5px 10px gray;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.Requestbook .main p {
+
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Requestbook .main button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 81, 110);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.Requestbook .main button:hover {
+    box-shadow: 0 0 10px black;
+}

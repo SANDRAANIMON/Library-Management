@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(255, 81, 110);
+}
+
+.tsk {
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.hd_icon {
+
+    background-image: linear-gradient(180deg, rgb(255, 81, 110), white);
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.land_mid {
+    text-align: center;
+    margin: 80px auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+}
+
+.land_mid h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.land_mid h5 {
+    color: wheat;
+    width: 300px;
+    font-size: 13px;
+}
+
+.mid_btn {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.mid_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid_btn button {
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    padding: 10px;
+    height: 50px;
+    box-shadow: 0px 3px 3px rgb(90, 88, 88);
+    font-size: 15px;
+    color: white;
+}
+
+.mid1 {
+    background-image: linear-gradient(180deg, rgb(255, 81, 110), white);
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.mid1:hover {
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+
+
+.dot1 {
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, white, wheat 30%, rgb(255, 81, 110) 80%, red 100%);
+    width: 190px;
+    height: 190px;
+    margin-left: 150px;
+}
+
+.dot2 {
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(240, 240, 240), rgb(168, 168, 166) 10%, #3b3d3b 50%, rgb(0, 0, 0) 100%);
+    width: 120px;
+    height: 120px;
+    margin-left: 1200px;
+    position: relative;
+    top: -220px;
+
+}
+
+
+.dot3 {
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, white, wheat 30%, rgb(255, 81, 110) 80%, red 100%);
+    width: 120px;
+    height: 120px;
+    margin-left: 900px;
+    top: 600px;
+    position: absolute;
+}
+
+.dot4 {
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 120%, rgb(240, 240, 240), rgb(168, 168, 166) 10%, #3b3d3b 50%, rgb(0, 0, 0) 100%);
+    width: 50px;
+    height: 50px;
+    margin-left: 560px;
+    top: 500px;
+    position: absolute;
+
+}
