@@ -53,10 +53,13 @@
 ![Student Book Report](https://user-images.githubusercontent.com/75678695/233776774-46ea21ea-883b-4798-b9b0-ffbff0389ac6.jpeg)
 </ol>
 <hr/>
+
 ### Admin Login
+
 <p>Created a frontend design for the backend part</p>
+
 <ol>
-  <li><p>Add New Book</li>
+  <li><p>Add New Book</p></li>
 
 ![Add New Book](https://user-images.githubusercontent.com/75678695/233777516-1f111e23-02bb-4415-9d8c-5bac6946fc29.jpeg)
 
