@@ -75,8 +75,7 @@
 
   <li><p><b>Issue Book</b></p></li>
   
-  
-![Issue Book](https://user-images.githubusercontent.com/75678695/233777603-37184de1-6f63-4df5-80e7-4be7d050cf25.jpeg)
+  ![Issue Book](https://user-images.githubusercontent.com/75678695/233777603-37184de1-6f63-4df5-80e7-4be7d050cf25.jpeg)
   
 
   <li><p><b>Issue Book Record</b></p></li>
