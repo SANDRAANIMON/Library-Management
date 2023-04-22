@@ -26,8 +26,11 @@
 <li>Search by Author</li>
 
 ![Search by Author](https://user-images.githubusercontent.com/75678695/233776669-ee4efaa9-da4f-45b6-8d7f-30f3c88b9c14.jpeg)
+
 <li>Search by Subject</li>
+
 ![Search by Subject](https://user-images.githubusercontent.com/75678695/233776694-55212a5e-b89e-4fe5-851c-fd03dc9b5e44.jpeg)
+
 <li>Search by Published Year</li>
 ![Search by Published Year](https://user-images.githubusercontent.com/75678695/233776725-544f4275-59f5-4802-aca0-feedf3bfc579.jpeg)
 <li>Student Book Report</li>
