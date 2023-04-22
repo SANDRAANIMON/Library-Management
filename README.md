@@ -1,5 +1,5 @@
 ## DevRev - FrontEnd-Library Management <hr/>
-<ol>
+<ol type="disc">
   <li>Built a library management page where users can see the list of books</li>
   <li>Implemented load on scroll</li>
   <li>Added Search, Back to Top and Logout buttons with functionalities</li>
